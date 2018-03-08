@@ -6,7 +6,7 @@
 ## 安装
 
 ```
-npm install tdx.js
+npm install tdx
 ```
 
 ## 交易相关 `trade` 模块
@@ -15,7 +15,7 @@ npm install tdx.js
 
 ```javascript
 
-const { TradeApi } = require('tdx.js')
+const { TradeApi } = require('tdx')
 const process = require("process")
 const TEST_ENDPOINT = "http://10.11.5.215:10092/api"
 const TEST_ENC_KEY  = "4f1cf3fec4c84c84"
@@ -75,5 +75,5 @@ testApis()
 - [ ] 完善行情部分的接口
     - [ ] 标注行情
     - [ ] 扩展行情
-- [ ] trade部分支持从浏览器直接访问（需要TdxTradeServer增加CROS)支持
+- [ ] Trade部分支持从浏览器直接访问（需要TdxTradeServer增加CROS)支持
 - [ ] 测试集编写

@@ -58,15 +58,16 @@ testApis()
 
 ## 接口列表
 
-* ping ping()
-* 登录 logon(ip, port, version, yybId, accountId, tradeAccount, jyPasswrod, txPassword)
-* 登出 logoff(clientId) 
-* 查询信息 queryData(clientId, category)
-* 查询历史信息 queryHistoryData(clientId, category)
-* 下单 sendOrder(clientId, category, priceType, gddm, zqdm, price, quantity) 
-* 撤单 cancelOrder(clientId, exchangeId, hth)
-* 行情查询 getQuote(clientId, code)
-* 融资融券账户直接还款 repay(clientId, amount)
+- 构造函数 constructor(endpoint, encoding='utf-8', encKey = null, encIv = null)
+- ping ping()
+- 登录 logon(ip, port, version, yybId, accountId, tradeAccount, jyPasswrod, txPassword)
+- 登出 logoff(clientId) 
+- 查询信息 queryData(clientId, category)
+- 查询历史信息 queryHistoryData(clientId, category)
+- 下单 sendOrder(clientId, category, priceType, gddm, zqdm, price, quantity) 
+- 撤单 cancelOrder(clientId, exchangeId, hth)
+- 行情查询 getQuote(clientId, code)
+- 融资融券账户直接还款 repay(clientId, amount)
 
 
 

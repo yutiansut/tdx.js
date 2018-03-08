@@ -1,7 +1,7 @@
 {
   "name": "tdx",
-  "version": "1.0.0",
-  "description": "'tdx js client'",
+  "version": "0.1.0",
+  "description": "JS version of pytdx ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +16,13 @@
   "bugs": {
     "url": "https://github.com/rainx/tdx.js/issues"
   },
-  "homepage": "https://github.com/rainx/tdx.js#readme",
+  "keywords": [
+    "tdx",
+    "pytdx",
+    "stock",
+    "trade"
+  ],
+  "homepage": "https://github.com/rainx/tdx.js",
   "dependencies": {
     "axios": "^0.18.0",
     "buffer": "^5.1.0"

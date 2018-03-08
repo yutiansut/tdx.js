@@ -76,5 +76,5 @@ testApis()
 - [ ] 完善行情部分的接口
     - [ ] 标注行情
     - [ ] 扩展行情
-- [ ] Trade部分支持从浏览器直接访问 **需要TdxTradeServer增加CROS** 支持
+- [ ] Trade部分支持从浏览器直接访问 **需要TdxTradeServer增加CORS** 支持
 - [ ] 测试集编写

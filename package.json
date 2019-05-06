@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack-cli"
+    "build": "webpack-cli",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -25,12 +27,14 @@
   "homepage": "https://github.com/rainx/tdx.js",
   "dependencies": {
     "axios": "^0.18.0",
-    "buffer": "^5.1.0"
+    "buffer": "^5.1.0",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "graceful-fs": "^4.1.11",
     "webpack": "^4.1.0"
-  }
+  },
+  "snyk": true
 }
